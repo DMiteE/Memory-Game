@@ -21,7 +21,7 @@ function flipCard(e){
 
 function matchCard(img1, img2){
     matchedCard++
-    if(matchedCard === 8){
+    if(matchedCard === 20){
       setTimeout(()=>{
       return   shuffleCard();
       },1000)
